@@ -5,7 +5,7 @@
 //  Created by Rudra Jikadra on 25/01/18.
 //  Copyright © 2018 Rudra Jikadra. All rights reserved.
 //
-// AIzaSyA2MyIqZDb28GSTHGkCgyum0jXuk4GE5jo
+
 
 import UIKit
 import GoogleMaps
