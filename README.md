@@ -16,5 +16,6 @@ Project was build in
 ## How does it looks like
  
  * Google Sign In (Gif)
+ 
 ![googlesignin](https://user-images.githubusercontent.com/15246084/41370023-19d85c30-6f64-11e8-9b5b-4d738532d3a8.gif)
 
