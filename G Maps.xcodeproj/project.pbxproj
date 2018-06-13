@@ -12,9 +12,15 @@
 		7359293D201A529700020720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7359293B201A529700020720 /* Main.storyboard */; };
 		7359293F201A529700020720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7359293E201A529700020720 /* Assets.xcassets */; };
 		73592942201A529700020720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73592940201A529700020720 /* LaunchScreen.storyboard */; };
+		7359294A201A52B000020720 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 73592949201A52B000020720 /* Podfile */; };
+		736A9426201B2CF100203C0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 736A9425201B2CF100203C0F /* GoogleService-Info.plist */; };
+		736A9428201B2FC200203C0F /* signin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736A9427201B2FC200203C0F /* signin.swift */; };
+		DDACB4D0761F3A1F02B67DA4 /* Pods_G_Maps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6037BC2E76FD66A9194AF920 /* Pods_G_Maps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36AB2D363606878F4D9FFBB3 /* Pods-G Maps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-G Maps.release.xcconfig"; path = "Pods/Target Support Files/Pods-G Maps/Pods-G Maps.release.xcconfig"; sourceTree = "<group>"; };
+		6037BC2E76FD66A9194AF920 /* Pods_G_Maps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_G_Maps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73592934201A529700020720 /* G Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "G Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73592937201A529700020720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73592939201A529700020720 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		7359293E201A529700020720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73592941201A529700020720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73592943201A529700020720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73592949201A52B000020720 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		736A9425201B2CF100203C0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		736A9427201B2FC200203C0F /* signin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signin.swift; sourceTree = "<group>"; };
+		788A4E48917971DB8DC2D5D2 /* Pods-G Maps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-G Maps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-G Maps/Pods-G Maps.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDACB4D0761F3A1F02B67DA4 /* Pods_G_Maps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		488777E689522AD2272E5665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6037BC2E76FD66A9194AF920 /* Pods_G_Maps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7359292B201A529700020720 = {
 			isa = PBXGroup;
 			children = (
+				73592949201A52B000020720 /* Podfile */,
 				73592936201A529700020720 /* G Maps */,
 				73592935201A529700020720 /* Products */,
+				9E249A6B66677DF448D4AFF6 /* Pods */,
+				488777E689522AD2272E5665 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +78,23 @@
 			children = (
 				73592937201A529700020720 /* AppDelegate.swift */,
 				73592939201A529700020720 /* ViewController.swift */,
+				736A9427201B2FC200203C0F /* signin.swift */,
 				7359293B201A529700020720 /* Main.storyboard */,
 				7359293E201A529700020720 /* Assets.xcassets */,
 				73592940201A529700020720 /* LaunchScreen.storyboard */,
 				73592943201A529700020720 /* Info.plist */,
+				736A9425201B2CF100203C0F /* GoogleService-Info.plist */,
 			);
 			path = "G Maps";
+			sourceTree = "<group>";
+		};
+		9E249A6B66677DF448D4AFF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				788A4E48917971DB8DC2D5D2 /* Pods-G Maps.debug.xcconfig */,
+				36AB2D363606878F4D9FFBB3 /* Pods-G Maps.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73592946201A529700020720 /* Build configuration list for PBXNativeTarget "G Maps" */;
 			buildPhases = (
+				4DC5F0BF9A9578654E53B77F /* [CP] Check Pods Manifest.lock */,
 				73592930201A529700020720 /* Sources */,
 				73592931201A529700020720 /* Frameworks */,
 				73592932201A529700020720 /* Resources */,
+				6A79F062AC9769165078431E /* [CP] Embed Pods Frameworks */,
+				DDB5637C4C9F6040CB91D562 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,17 +161,89 @@
 			files = (
 				73592942201A529700020720 /* LaunchScreen.storyboard in Resources */,
 				7359293F201A529700020720 /* Assets.xcassets in Resources */,
+				736A9426201B2CF100203C0F /* GoogleService-Info.plist in Resources */,
+				7359294A201A52B000020720 /* Podfile in Resources */,
 				7359293D201A529700020720 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DC5F0BF9A9578654E53B77F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-G Maps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A79F062AC9769165078431E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-G Maps/Pods-G Maps-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-G Maps/Pods-G Maps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB5637C4C9F6040CB91D562 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-G Maps/Pods-G Maps-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-G Maps/Pods-G Maps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		73592930201A529700020720 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736A9428201B2FC200203C0F /* signin.swift in Sources */,
 				7359293A201A529700020720 /* ViewController.swift in Sources */,
 				73592938201A529700020720 /* AppDelegate.swift in Sources */,
 			);
@@ -272,6 +380,7 @@
 		};
 		73592947201A529700020720 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788A4E48917971DB8DC2D5D2 /* Pods-G Maps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +396,7 @@
 		};
 		73592948201A529700020720 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36AB2D363606878F4D9FFBB3 /* Pods-G Maps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
