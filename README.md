@@ -16,6 +16,9 @@ Project was build in
 ## How does it looks like
  
  * Google Sign In (Gif)
- 
-![googlesignin](https://user-images.githubusercontent.com/15246084/41370023-19d85c30-6f64-11e8-9b5b-4d738532d3a8.gif)
 
+![ezgif com-optimize](https://user-images.githubusercontent.com/15246084/41370539-8b7be9be-6f65-11e8-8c31-9200ce1d5824.gif)
+
+ * Google Maps (Gif)
+
+![maps](https://user-images.githubusercontent.com/15246084/41371122-076201e8-6f67-11e8-88c8-e715610add8d.gif)
