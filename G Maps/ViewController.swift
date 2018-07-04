@@ -21,7 +21,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
     
     var ref: DatabaseReference!
     
-    var api_key = "AIzaSyA2MyIqZDb28GSTHGkCgyum0jXuk4GE5jo"
+    var api_key = "<<YOUR API KEY>>"
     var mapView: GMSMapView!
     var marker =  GMSMarker()
     var nextLocation = CLLocationCoordinate2D(latitude: 25.192231, longitude: 55.274967)
